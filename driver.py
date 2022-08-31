@@ -9,6 +9,10 @@ import sys
 #Function to test the functions in the stringlib module
 def testStringLib(inputStr):
     #Add code to call each of the functions and print the results
+    print(reverseStr(inputStr))
+    print(containsWord(inputStr, "banana"))
+    print(isPalindrome(inputStr))
+    print(upperCaseStr(inputStr))
     return
 
 #Function to test the methods in the Worker class in the worker module
